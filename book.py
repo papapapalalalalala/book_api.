@@ -15,7 +15,7 @@ app.config['CORS_HEADERS']='Content-Type'
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "<p>Hello, World! </p>"
 
 # Create (POST) operation
 @app.route('/books', methods=['POST'])
